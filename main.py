@@ -8,7 +8,7 @@ import numpy as np
 app = FastAPI()
 
 # Load the trained model
-model = load_model("/content/drive/MyDrive/Symtobot/data.h5")
+model = load_model("data.h5")
 encoder = LabelEncoder()
 
 class SymptomInput(BaseModel):
