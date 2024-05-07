@@ -1,8 +1,3 @@
-pip install fastapi uvicorn
-from google.colab import drive
-drive.mount('/content/drive')
-
-
 # server.py
 
 from fastapi import FastAPI
