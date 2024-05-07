@@ -1,5 +1,3 @@
-# server.py
-
 from fastapi import FastAPI
 from tensorflow.keras.models import load_model
 from pydantic import BaseModel
