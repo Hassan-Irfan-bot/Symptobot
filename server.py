@@ -5,7 +5,7 @@ from pydantic import BaseModel
 app = FastAPI()
 
 # Load the trained model
-model = load_model("/content/drive/MyDrive/DiseasePredictor/diseasepredictor.h5")
+model = load_model("/data.h5")
 
 class SymptomInput(BaseModel):
     symptoms: str
